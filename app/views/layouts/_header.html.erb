@@ -21,7 +21,8 @@
         <!--非会員-->
         <li class="nav-item css_font"><%= link_to root_path,class: 'nav-link' do %>top<% end %></li>
         <li class="nav-item css_font"><%= link_to new_user_registration_path,class: 'nav-link' do %>Sign up<% end %></li>
-        <li class="nav-item css_font"><%= link_to new_user_session_path,class: 'nav-link' do %>Sign in<% end %></li>
+        <li class="nav-item css_font"><%= link_to new_user_session_path,class: 'nav-link' do %>User Sign in<% end %></li>
+        <li class="nav-item css_font"><%= link_to new_admin_session_path,class: 'nav-link' do %>Admin Sign in<% end %></li>
         <% end %>
         </ul>
       </div>
